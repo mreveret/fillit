@@ -22,7 +22,7 @@ SRCS = $(PATH_SRC)check_tetri.c \
 	  $(PATH_SRC)fillit.c \
 	  $(PATH_SRC)main.c \
 	  $(PATH_SRC)setup_backtracking.c \
-	  $(PATH_SRC)tabopti.c
+	  $(PATH_SRC)tabopti.c \
 	  $(PATH_SRC)free.c
 
 OBJS = $(SRCS:.c=.o)
